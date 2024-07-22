@@ -1,0 +1,206 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+.receiptmain{
+    height: 90%;
+    width: 65%;
+    background-color: #FD6A4F;
+    border-radius: 20px;
+    position: absolute;
+    top: 5%;
+    left: 17%;
+}
+.partone{
+    height: 90%;
+    width: 40%;
+    background-color: #FD6A4F;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    box-shadow: -2px -2px 15px #D5452A;
+    border-radius: 10px 0px 0px 0px;
+}
+#logo{
+    height: 100px;
+    width: 150px;
+    /* object-fit: cover; */
+    object-position: center;
+    position: absolute;
+    left: 30%;
+    top: 3%;
+}
+#shoes{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+#nikeh{
+    position: absolute;
+    left: 7%;
+    top: 60%;
+    color: #D3191E;
+}
+#trackorder{
+    height: 7%;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 750;
+    color: #D3191E;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+#datetime{
+    font-size: 10px;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+}
+.parttwo{
+    height: 90%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+    box-shadow: -2px -2px 15px #D5452A;
+    border-radius: 0px 10px 0px 0px;
+}
+#thankyou{
+    font-size: 25px;
+    color: #FD6A4F;
+    position: absolute;
+    left: 13%;
+    top: 4%;
+}
+#harold{
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    left: 13%;
+    top: 20%;
+}
+#orderno{
+    position: absolute;
+    left: 13%;
+    top: 30%;
+    font-size: 10px;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+#ordernop{
+    position: absolute;
+    left: 13%;
+    top: 33%;
+    font-size: 12px;
+    font-weight: 500;
+}
+#shippingdate{
+    position: absolute;
+    left: 13%;
+    top: 40%;
+    font-size: 10px;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+#shippingdatep{
+    position: absolute;
+    left: 13%;
+    top: 43%;
+    font-size: 12px;
+    font-weight: 500;
+}
+#shippingadress{
+    position: absolute;
+    left: 13%;
+    top: 50%;
+    font-size: 10px;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+#shippingadressp{
+    position: absolute;
+    left: 13%;
+    top: 53%;
+    font-size: 12px;
+    font-weight: 500;
+}
+#receipt{
+    position: absolute;
+    left: 13%;
+    top: 60%;
+    font-size: 10px;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+#receiptp{
+    position: absolute;
+    left: 13%;
+    top: 63%;
+    font-size: 12px;
+    font-weight: 500;
+}
+#shippingmethod{
+    position: absolute;
+    left: 13%;
+    top: 70%;
+    font-size: 10px;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+#shippingmethodp{
+    position: absolute;
+    left: 13%;
+    top: 73%;
+    font-size: 12px;
+    font-weight: 500;
+}
+#paymentmethod{
+    position: absolute;
+    left: 13%;
+    top: 80%;
+    font-size: 10px;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+#paymentmethodp{
+    position: absolute;
+    left: 13%;
+    top: 83%;
+    font-size: 12px;
+    font-weight: 500;
+}
+#total{
+    position: absolute;
+    left: 13%;
+    top: 90%;
+    font-size: 10px;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+#totalp{
+    position: absolute;
+    left: 13%;
+    top: 93%;
+    font-size: 15px;
+    font-weight: 800;
+    color: #FD6A4F;
+}
